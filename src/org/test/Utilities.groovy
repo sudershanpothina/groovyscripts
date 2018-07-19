@@ -1,7 +1,7 @@
 package org.test
 class Utilities {
-  static def testPrint(args) {
+  static def testPrint(script,args) {
 		print "${args}"
-		sh "echo ${args}"
+		script.sh "echo ${args}"
 	 }
 }
