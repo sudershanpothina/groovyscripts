@@ -1,0 +1,5 @@
+@Library("groovyTest") _
+node{
+    test("t")
+ someFunc("test 1")   
+}
