@@ -1,6 +1,6 @@
 package org.test
-class Utilities implements Serializable{
-	def testClassPrint(args){
+class Utilities {
+  static def testPrint(args) {
 		print "${args}"
-	}
+	 }
 }
