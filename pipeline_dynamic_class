@@ -1,0 +1,5 @@
+@Library('groovyTest') 
+import static org.test.Utilities.*
+node {
+  testPrint this,'clean package'
+}
