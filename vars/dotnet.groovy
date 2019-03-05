@@ -9,6 +9,12 @@ def call(body) {
         deleteDir()
         stage('checkout') {
             checkout scm
+            sh "ls"
+        }
+        stage("Build") {
+            config.projects.each {
+                println it
+            }
         }
     }
 
